@@ -1,0 +1,30 @@
+.d-left{
+  margin-top: 10%;
+}
+
+.slogan{
+  color: #344758;
+
+  font-size: 48px;
+  font-family: 'Bakbak One', cursive;
+}
+.slogan span{
+  color: #FF7259;
+}
+.explore{
+  width: 150px;
+  height: 40px;
+  margin-top: 50px;
+
+  background-color: #FF7259;  
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  transition: 1s;
+}
+.explore a{
+  color: #fff;
+}
+.explore:hover{
+  transition: 1s;
+  background-color: #5B7C87;
+}
