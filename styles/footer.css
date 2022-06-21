@@ -1,0 +1,15 @@
+footer{
+  background-color: #5b7c87;
+  color: #fff;
+}
+.termos{
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+  font-size: 18px;
+
+  gap: 100px;
+}
+.copyright{
+  padding-bottom: 50px;
+}

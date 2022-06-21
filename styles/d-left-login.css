@@ -1,0 +1,18 @@
+.d-left-login{
+  width: 50%;
+}
+.input-login{
+  margin-top: 20px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  gap: 20px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.input-login input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+}

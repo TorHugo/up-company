@@ -1,0 +1,18 @@
+.nav-cadastro{
+  width: 95%;
+  margin: 10px auto;
+  justify-content: space-between !important;
+}
+.icone-voltar img{
+  width: 50px;
+}
+.text-cadastro{
+  color: #1f1f1f;
+
+  font-size: 48px;
+  font-family: 'Bakbak One', cursive;
+}
+
+.logo-cadastro{
+  font-size: 24px;
+}

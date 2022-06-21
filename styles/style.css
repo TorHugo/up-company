@@ -2,14 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Bakbak+One&family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 
+/* INDEX */
 @import url("../styles/nav.css");
-@import url("../styles/section.css");
+@import url("../styles/section-index.css");
 @import url("../styles/d-left.css");
+@import url("../styles/d-right.css");
+@import url("../styles/footer.css");
+
+/* CADASTRO */
+@import url("../styles/nav-cadastro.css");
+@import url("../styles/d-left-cadastro.css");
+@import url("../styles/d-right-cadastro.css");
+@import url("../styles/section-sucess.css");
+
+/* LOGIN */
+@import url("../styles/d-left-login.css");
+@import url("../styles/d-right-login.css");
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
+}
+body{
+  background-color: #ecf0f1;
+  font-family: 'lato';
 }
 .d-flex{
   display: flex;

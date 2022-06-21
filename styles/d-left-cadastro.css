@@ -1,0 +1,70 @@
+.session-cadastro{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nome-cadastro{
+  margin-top: 20px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+
+  gap: 20px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.nome-cadastro input{
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.proximo-cadastro{
+  width: 40%;
+  height: 50px;
+  margin: 50px auto;
+
+  border-radius: 20px;
+  font-size: 20px;
+
+  background-color: #5B7C87;
+  transition: 1s;
+  cursor: pointer;
+}
+.proximo-cadastro a{
+  color: #fff;
+}
+.proximo-cadastro:hover{
+  background-color: #FF7259;
+  transition: 1s;
+}
+
+.outra-forma{
+  justify-content: space-between !important;
+  font-size: 24px;
+}
+.outra-forma hr{
+  width: 40%;
+  height: 5px;
+  background-color: #5B7C87;
+}
+.cadastrar-google{
+  margin-top: 50px;
+  color: #fff;
+}
+.cadastrar-google a{
+  font-size: 24px;
+
+  gap: 20px;
+  color: #000;
+}
+
+.termos{
+  padding-top: 20px;
+  font-size: 18px;
+}
+.termos a{
+  color: #000;
+}
