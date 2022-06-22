@@ -1,0 +1,16 @@
+.d-left-dash{
+  width: 90%;
+  margin-top: 50px;
+
+  font-size: 32px;
+  font-family: 'Bakbak One', cursive;
+
+  justify-content: space-around !important;
+}
+
+.d-left-dash span{
+  color: #ff7259;
+}
+.d-left-dash img{
+  width: 80%;
+}

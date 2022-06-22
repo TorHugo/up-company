@@ -1,0 +1,16 @@
+.section-receitas{
+  width: 90%;
+}
+.container-receitas{
+  display: flex;
+  align-items: center;
+}
+.cards-receitas{
+  width: 75px;
+  height: 75px;
+  margin-top: 150px;
+  margin-left: 50px;
+
+  border-radius: 20px;
+  background-color: #5b7c87;
+}

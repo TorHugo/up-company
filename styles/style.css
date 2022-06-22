@@ -19,6 +19,15 @@
 @import url("../styles/d-left-login.css");
 @import url("../styles/d-right-login.css");
 
+/* DASH-BOARD */
+@import url("../styles/nav-dashboard.css");
+@import url("../styles/d-left-dash.css");
+@import url("../styles/card.css");
+@import url("../styles/footer-dash.css");
+
+/* RECEITAS */
+@import url("../styles/section-receitas.css");
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -26,11 +35,22 @@
   text-decoration: none;
 }
 body{
-  background-color: #ecf0f1;
+  background-color: #ecf0f1 !important;
   font-family: 'lato';
+}
+body::-webkit-scrollbar{
+  width: 0.5rem;
+  background-color: #ff7259;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: #5b7c87;
+  border-radius: 30px;
 }
 .d-flex{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+span{
+  color: #ff7259;
 }
