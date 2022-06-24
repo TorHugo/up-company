@@ -1,0 +1,138 @@
+@media (max-width: 768px){
+
+  /* INDEX */
+  .nav-logo{
+    height: 100px;
+  }
+  .nav-logo img{
+    width: 60%;
+  }
+  .login{
+    width: 80px;
+    font-size: 16px;
+  }
+  .cadastrar{
+    width: 120px;
+    font-size: 16px;
+  }
+  .slogan{
+    font-size: 28px;
+  }
+  .redes img{
+    width: 10%;
+  }
+
+  /* FOOTER */
+  .termos{
+    font-size: 16px;
+  }
+
+  /* CADASTRO */
+  .nome-cadastro input{
+    width: 70%;
+  }
+  .nome-cadastro img, .input-login img, .cadastrar-google img{
+    width: 10%;
+  }
+  .proximo-cadastro{
+    width: 40%;
+  }
+  .progress-bar img{
+    width: 100%;
+  }
+  .outra-forma{
+    font-size: 18px;
+  }
+  .outra-forma hr{
+    height: 3px;
+  }
+  .cadastrar-google a{
+    font-size: 20px;
+  }
+
+  /* LOGIN */
+  .d-right-login{
+    display: none;
+  }
+
+  /* DASHBOARD */
+  .d-left-dash{
+    flex-direction: column;
+  }
+  .img-card{
+    width: 100px;
+    height: 100px;
+  }
+  .img-card img{
+    width: 78px;
+    height: 78px;
+  }
+  .cads-func{
+    font-size: 16px;
+  }
+  .cads-func a:hover{
+    font-size: 18px;
+  }
+  .funcionalidades .cads-func{
+    flex-direction: column ;
+  }
+
+  /* RECEITA */
+  .titulo-receita{
+    font-size: 22px;
+  }
+  .input-receita input{
+    width: 300px;
+    height: 50px;
+
+    font-size: 16px;
+  }
+  .cadastro-receita, .card-filtro{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  .card-filtro img{
+    width: 40px;
+    height: 40px;
+  }
+  .card-entrada, .filtro-receita{
+    font-size: 16px;
+  }
+  .card-valor{
+    font-size: 24px;
+  }
+
+  @media (max-width: 550px){
+    .d-left-dash{
+      font-size: 24px;
+    }
+    .d-left-dash img{
+      display: none;
+    }
+    .termos, .copyright p{
+      font-size: 14px;
+    }
+    .input-receita input{
+      width: 150px;
+      height: 50px;
+  
+      font-size: 16px;
+    }
+    .cadastro-receita, .card-filtro{
+      width: 40px;
+      height: 40px;
+      border-radius: 10px;
+    }
+    .card-filtro img{
+      width: 30px;
+      height: 30px;
+    }
+    .card-entrada, .filtro-receita{
+      font-size: 14px;
+    }
+    .card-valor{
+      font-size: 18px;
+    }
+  }
+} 

@@ -27,6 +27,11 @@
 
 /* RECEITAS */
 @import url("../styles/section-receitas.css");
+@import url("../styles/footer-receita.css");
+
+/* RESPONSIVO */
+@import url("../styles/tablet.css");
+@import url("../styles/mobile.css");
 
 *{
   box-sizing: border-box;

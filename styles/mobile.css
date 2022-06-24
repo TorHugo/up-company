@@ -1,0 +1,103 @@
+@media (max-width: 426px){
+
+  /* INDEX */
+  .nav-logo, .nav-logo img, .d-right, .d-right-cadastro{
+    display: none;
+  }
+  .nav-button{
+    margin: 10px auto;
+  }
+  .section-index{
+    height: 400px;
+  }
+  .d-left{
+    margin: 0 auto;
+  }
+  .slogan{
+    font-size: 24px;
+  }
+  
+  /* FOOTER */
+  .termos, .copyright p{
+    font-size: 14px;
+  }
+  .copyright{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .termos{
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  /* CADASTRO */
+  .nav-cadastro{
+    width: 80%;
+    justify-content: space-around !important;
+  }
+  .text-cadastro, .logo-cadastro a{
+    font-size: 18px;
+  }
+  .nome-cadastro{
+    width: 100%;
+  }
+  .nome-cadastro input{
+    width: 80%;
+  }
+  .progress-bar img{
+    width: 100%;
+  }
+  .proximo-cadastro{
+    width: 100px;
+    font-size: 16px;
+  }
+  .outra-forma{
+    font-size: 16px;
+  }
+  .outra-forma hr{
+    height: 3px;
+  }
+  .cadastrar-google a{
+    font-size: 20px;
+  }
+  /* CADASTRO-SUCESS */
+  .section-sucess{
+    font-size: 18px;
+  }
+
+  /* LOGIN */
+  .d-left-login{
+    width: 90%;
+  }
+  
+  /* DASHBOARD */
+  .d-left-dash, .funcionalidades .cads-func{
+    flex-direction: column;
+  }
+  .d-left-dash div{
+    width: 90%;
+  }
+  
+  /* RECEITA */
+  .titulo-receita{
+    width: 50%;
+    margin: 10px auto;
+    font-size: 18px;
+  }
+  .input-receita{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .input-receita input{
+    width: 90%;
+    height: 40px;
+    font-size: 16px;
+  }
+  .receitas, .card-entrada{
+    width: 90%;
+  }
+} 

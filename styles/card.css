@@ -2,15 +2,12 @@
   width: 90%;
 }
 .img-card{
-  width: 100px;
-  height: 100px;
-
-  background-color: #ff7259;
-  border-radius: 20px;
+  width: 150px;
+  height: 150px;
 }
 .img-card img{
-  width: 75px;
-  height: 75px;
+  width: 128px;
+  height: 128px;
 }
 .cads-func{
   padding-top: 100px;

@@ -12,20 +12,67 @@
     <div class='icone-voltar'>
       <a href="../pages/dashboard.html"><img src="../image/voltar.png" alt="Icone de voltar."></a>
     </div>
-    <div class='text-cadastro'>
-      <p>O que deseja fazer, com suas <span>Receitas</span>?</p>
-    </div>
     <div class='logo-cadastro'>
       <a href="../index.html">UpCompany</a>
     </div>
   </nav>
   <section class='section-receitas'>
-    <div class='container-receitas'>
-      <div class='cards-receitas d-flex'>
-        <img src="../image/cadastrar.png">
+    <div class='text-cadastro titulo-receita'>
+      <p>Suas <span>Receitas</span>.</p>
+    </div>
+    <div>
+      <div class='input-receita d-flex'>
+        <div class='d-flex'>
+          <input type="text" placeholder='Pesquise aqui: '>
+        </div>
+        <div class='card-receita d-flex'>
+          <div class='card-filtro d-flex'>
+            <img src="../image/data.png">
+          </div>
+          <div class='card-filtro d-flex'>
+            <img src="../image/entradas.png">
+          </div>
+          <div class='card-filtro d-flex'>
+            <img src="../image/saida.png">
+          </div>
+        </div>
       </div>
-      <p>Cadastrar, nova entrada</p>
+      <div class='filtro-receita d-flex'>
+        <div class='cadastro-receita d-flex'>
+          <img src="../image/cadastrar.png">
+        </div>
+        <p>Cadastrar nova receita</p>
+      </div>
+    </div>
+    <div class='receitas'>
+      <div class='card-entrada'>
+        <p>Nome: Lucro de vendas do dia 22/06</p>
+        <p class='card-valor d-flex'>Valor: R$ <span class='span-entrada'>957,00</span>.</p>
+      </div>
+      <div class='card-entrada card-saida'>
+        <p>Nome: Pagamento do funcionario @Robson</p>
+        <p class='card-valor d-flex'>Valor: R$ <span class='span-saida'>2.349,00</span>.</p>
+      </div>
+      <div class='card-entrada'>
+        <p>Nome: Lucro de vendas do dia 04/06</p>
+        <p class='card-valor d-flex'>Valor: R$ <span class='span-entrada'>1.247,00</span>.</p>
+      </div>
     </div>
   </section>
+  <footer class='footer-receitas'>
+    <div class='termos d-flex'>
+      <div>
+        <p>Fale conosco</p>
+        <p>Dicas de segurança</p>
+      </div>
+      <div>
+        <p>Políticas de privacidade</p>
+        <p>Termos de condição de uso</p>
+      </div>
+    </div>
+    <div class='copyright d-flex'>
+      <p>© Copyright 2022 - UpCompany - Todos os direitos reservados UpCompany.</p>
+    </div>
+  </footer>
 </body>
 </html>

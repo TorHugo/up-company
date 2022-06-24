@@ -14,3 +14,110 @@
   border-radius: 20px;
   background-color: #5b7c87;
 }
+.titulo-receita{
+  width: 25%;
+  margin: 0 auto;
+}
+.input-receita{
+  justify-content: space-between !important;
+}
+.input-receita input{
+  width: 500px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding-left: 10px;
+
+  outline: none;
+  border: none;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+
+  font-size: 18px;
+  border-radius: 10px;
+}
+.filtro-receita{
+  margin-top: 50px;
+  margin-left: 50px;
+
+  font-size: 24px;
+  justify-content: flex-start !important;
+
+  gap: 20px;
+}
+.cadastro-receita{
+  width: 75px;
+  height: 75px;
+
+  border: none;
+  border-radius: 20px;
+
+  background-color: #5b7c87;
+  
+  transition: 1s;
+  cursor: pointer;
+}
+.cadastro-receita:hover{
+  transition: 1s;
+  background-color: #ff7259;
+}
+.card-filtro{
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  cursor: pointer;
+
+  background-color: #5b7c87;
+  transition: 1s;
+}
+.card-filtro:hover{
+  transition: 1s;
+  background-color: #ff7259;
+}
+.card-receita{
+  padding-top: 50px;
+  gap: 50px;
+}
+.receitas{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.card-entrada{
+  width: 50%;
+  height: 150px;
+  margin-top: 50px;
+
+  font-size: 24px;
+
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+  transition: 1s;
+}
+.card-entrada:hover{
+  transition: 1s;
+
+  background-color: #c2e7c6;
+}
+.card-saida:hover{
+  transition: 1s;
+
+  background-color: rgb(236, 181, 181);
+}
+.card-entrada p{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.card-valor{
+  margin-top: 50px;
+  font-size: 32px;
+}
+.span-entrada{
+  font-weight: bold;
+  color: #83bd89;
+}
+.span-saida{
+  font-weight: bold;
+  color: rgb(216, 88, 88);
+}
